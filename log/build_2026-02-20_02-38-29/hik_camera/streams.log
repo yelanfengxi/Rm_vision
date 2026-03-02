@@ -1,0 +1,85 @@
+[0.007s] Invoking command in '/home/lan/rm_vision_ws/build/hik_camera': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lan/rm_vision_ws/src/ros2_hik_camera -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lan/rm_vision_ws/install/hik_camera
+[0.050s] -- The C compiler identification is GNU 11.4.0
+[0.082s] -- The CXX compiler identification is GNU 11.4.0
+[0.086s] -- Detecting C compiler ABI info
+[0.124s] -- Detecting C compiler ABI info - done
+[0.128s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.128s] -- Detecting C compile features
+[0.129s] -- Detecting C compile features - done
+[0.130s] -- Detecting CXX compiler ABI info
+[0.172s] -- Detecting CXX compiler ABI info - done
+[0.178s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.178s] -- Detecting CXX compile features
+[0.179s] -- Detecting CXX compile features - done
+[0.179s] -- Found ament_cmake_auto: 1.3.12 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.267s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.301s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.366s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.368s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.372s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.378s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.385s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.406s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.407s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.452s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.466s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.489s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.493s] -- Looking for pthread.h
+[0.541s] -- Looking for pthread.h - found
+[0.542s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.587s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.588s] -- Found Threads: TRUE  
+[0.662s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.672s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.672s] -- Configured cppcheck include dirs: /home/lan/rm_vision_ws/src/ros2_hik_camera/hikSDK/include
+[0.672s] -- Configured cppcheck exclude dirs and/or files: 
+[0.672s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.673s] -- Added test 'lint_cmake' to check CMake code style
+[0.673s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.673s] -- Added test 'xmllint' to check XML markup files
+[0.674s] -- Configuring done
+[0.685s] -- Generating done
+[0.687s] -- Build files have been written to: /home/lan/rm_vision_ws/build/hik_camera
+[0.693s] Invoked command in '/home/lan/rm_vision_ws/build/hik_camera' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lan/rm_vision_ws/src/ros2_hik_camera -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lan/rm_vision_ws/install/hik_camera
+[0.694s] Invoking command in '/home/lan/rm_vision_ws/build/hik_camera': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lan/rm_vision_ws/build/hik_camera -- -j16 -l16
+[0.721s] [ 25%] [32mBuilding CXX object CMakeFiles/hik_camera_node.dir/rclcpp_components/node_main_hik_camera_node.cpp.o[0m
+[0.721s] [ 50%] [32mBuilding CXX object CMakeFiles/hik_camera.dir/src/hik_camera_node.cpp.o[0m
+[3.100s] [ 75%] [32m[1mLinking CXX executable hik_camera_node[0m
+[3.176s] [100%] [32m[1mLinking CXX shared library libhik_camera.so[0m
+[3.176s] [100%] Built target hik_camera_node
+[3.256s] [100%] Built target hik_camera
+[3.262s] Invoked command in '/home/lan/rm_vision_ws/build/hik_camera' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lan/rm_vision_ws/build/hik_camera -- -j16 -l16
+[3.263s] Invoking command in '/home/lan/rm_vision_ws/build/hik_camera': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lan/rm_vision_ws/build/hik_camera
+[3.269s] -- Install configuration: ""
+[3.269s] -- Execute custom install script
+[3.269s] -- Symlinking: /home/lan/rm_vision_ws/install/hik_camera/lib/libFormatConversion.so
+[3.276s] -- Symlinking: /home/lan/rm_vision_ws/install/hik_camera/lib/libMVRender.so
+[3.281s] -- Symlinking: /home/lan/rm_vision_ws/install/hik_camera/lib/libMediaProcess.so
+[3.286s] -- Symlinking: /home/lan/rm_vision_ws/install/hik_camera/lib/libMvCameraControl.so
+[3.292s] -- Symlinking: /home/lan/rm_vision_ws/install/hik_camera/lib/libMvUsb3vTL.so
+[3.297s] -- Symlinking: /home/lan/rm_vision_ws/install/hik_camera/lib/hik_camera/hik_camera_node
+[3.303s] -- Symlinking: /home/lan/rm_vision_ws/install/hik_camera/share/hik_camera/environment/library_path.sh
+[3.310s] -- Symlinking: /home/lan/rm_vision_ws/install/hik_camera/share/hik_camera/environment/library_path.dsv
+[3.314s] -- Symlinking: /home/lan/rm_vision_ws/install/hik_camera/lib/libhik_camera.so
+[3.319s] -- Symlinking: /home/lan/rm_vision_ws/install/hik_camera/share/hik_camera/config/camera_info.yaml
+[3.323s] -- Symlinking: /home/lan/rm_vision_ws/install/hik_camera/share/hik_camera/config/camera_params.yaml
+[3.328s] -- Symlinking: /home/lan/rm_vision_ws/install/hik_camera/share/hik_camera/launch/hik_camera.launch.py
+[3.333s] -- Symlinking: /home/lan/rm_vision_ws/install/hik_camera/share/ament_index/resource_index/package_run_dependencies/hik_camera
+[3.338s] -- Symlinking: /home/lan/rm_vision_ws/install/hik_camera/share/ament_index/resource_index/parent_prefix_path/hik_camera
+[3.343s] -- Symlinking: /home/lan/rm_vision_ws/install/hik_camera/share/hik_camera/environment/ament_prefix_path.sh
+[3.349s] -- Symlinking: /home/lan/rm_vision_ws/install/hik_camera/share/hik_camera/environment/ament_prefix_path.dsv
+[3.354s] -- Symlinking: /home/lan/rm_vision_ws/install/hik_camera/share/hik_camera/environment/path.sh
+[3.360s] -- Symlinking: /home/lan/rm_vision_ws/install/hik_camera/share/hik_camera/environment/path.dsv
+[3.364s] -- Symlinking: /home/lan/rm_vision_ws/install/hik_camera/share/hik_camera/local_setup.bash
+[3.369s] -- Symlinking: /home/lan/rm_vision_ws/install/hik_camera/share/hik_camera/local_setup.sh
+[3.375s] -- Symlinking: /home/lan/rm_vision_ws/install/hik_camera/share/hik_camera/local_setup.zsh
+[3.380s] -- Symlinking: /home/lan/rm_vision_ws/install/hik_camera/share/hik_camera/local_setup.dsv
+[3.385s] -- Symlinking: /home/lan/rm_vision_ws/install/hik_camera/share/hik_camera/package.dsv
+[3.390s] -- Symlinking: /home/lan/rm_vision_ws/install/hik_camera/share/ament_index/resource_index/packages/hik_camera
+[3.395s] -- Symlinking: /home/lan/rm_vision_ws/install/hik_camera/share/ament_index/resource_index/rclcpp_components/hik_camera
+[3.399s] -- Symlinking: /home/lan/rm_vision_ws/install/hik_camera/share/hik_camera/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.404s] -- Symlinking: /home/lan/rm_vision_ws/install/hik_camera/share/hik_camera/cmake/ament_cmake_export_libraries-extras.cmake
+[3.408s] -- Symlinking: /home/lan/rm_vision_ws/install/hik_camera/share/hik_camera/cmake/hik_cameraConfig.cmake
+[3.412s] -- Symlinking: /home/lan/rm_vision_ws/install/hik_camera/share/hik_camera/cmake/hik_cameraConfig-version.cmake
+[3.416s] -- Symlinking: /home/lan/rm_vision_ws/install/hik_camera/share/hik_camera/package.xml
+[3.422s] Invoked command in '/home/lan/rm_vision_ws/build/hik_camera' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lan/rm_vision_ws/build/hik_camera

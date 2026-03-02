@@ -1,0 +1,1 @@
+/home/lan/rm_vision_ws/build/rm_serial_driver/ament_cmake_environment_hooks/local_setup.bash

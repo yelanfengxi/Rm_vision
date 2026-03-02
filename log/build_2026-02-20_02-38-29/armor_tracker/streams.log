@@ -1,0 +1,45 @@
+[0.006s] Invoking command in '/home/lan/rm_vision_ws/build/armor_tracker': AMENT_PREFIX_PATH=/home/lan/rm_vision_ws/install/auto_aim_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lan/rm_vision_ws/install/auto_aim_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/lan/rm_vision_ws/install/auto_aim_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lan/rm_vision_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/lan/rm_vision_ws/src/rm_auto_aim/armor_tracker -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lan/rm_vision_ws/install/armor_tracker
+[0.040s] -- The C compiler identification is GNU 11.4.0
+[0.079s] -- The CXX compiler identification is GNU 11.4.0
+[0.082s] -- Detecting C compiler ABI info
+[0.120s] -- Detecting C compiler ABI info - done
+[0.124s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.124s] -- Detecting C compile features
+[0.124s] -- Detecting C compile features - done
+[0.126s] -- Detecting CXX compiler ABI info
+[0.168s] -- Detecting CXX compiler ABI info - done
+[0.172s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.172s] -- Detecting CXX compile features
+[0.172s] -- Detecting CXX compile features - done
+[0.173s] -- Found ament_cmake_auto: 1.3.12 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.261s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.296s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.363s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.365s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.368s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.375s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.382s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.403s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.404s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.451s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.464s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.492s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.497s] -- Looking for pthread.h
+[0.537s] -- Looking for pthread.h - found
+[0.537s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.582s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.582s] -- Found Threads: TRUE  
+[0.667s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.667s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[0.667s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.712s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.720s] [0mIn this package, headers install destination is set to `include` by ament_auto_package. It is recommended to install `include/armor_tracker` instead and will be the default behavior of ament_auto_package from ROS 2 Kilted Kaiju. On distributions before Kilted, ament_auto_package behaves the same way when you use USE_SCOPED_HEADER_INSTALL_DIR option.[0m
+[0.722s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.723s] -- Configured cppcheck include dirs: /home/lan/rm_vision_ws/src/rm_auto_aim/armor_tracker/include
+[0.723s] -- Configured cppcheck exclude dirs and/or files: 
+[0.723s] -- Added test 'lint_cmake' to check CMake code style
+[0.723s] -- Added test 'xmllint' to check XML markup files
+[0.724s] -- Added test 'clang_format' to check C / C++ code style
+[0.725s] -- Configuring done
+[0.736s] -- Generating done
+[0.739s] -- Build files have been written to: /home/lan/rm_vision_ws/build/armor_tracker
