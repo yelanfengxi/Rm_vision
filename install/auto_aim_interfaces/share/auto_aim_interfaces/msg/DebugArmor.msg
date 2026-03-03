@@ -1,1 +1,0 @@
-/home/lan/rm_vision_ws/src/rm_auto_aim/auto_aim_interfaces/msg/DebugArmor.msg

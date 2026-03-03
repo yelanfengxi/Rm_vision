@@ -1,1 +1,0 @@
-/home/lan/rm_vision_ws/src/rm_serial_driver/launch/serial_driver.launch.py

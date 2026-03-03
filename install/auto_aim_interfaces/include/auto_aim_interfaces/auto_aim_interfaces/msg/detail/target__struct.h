@@ -1,1 +1,0 @@
-/home/lan/rm_vision_ws/build/auto_aim_interfaces/rosidl_generator_c/auto_aim_interfaces/msg/detail/target__struct.h

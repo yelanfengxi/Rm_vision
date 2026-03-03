@@ -1,1 +1,0 @@
-/home/lan/rm_vision_ws/build/armor_detector/ament_cmake_core/armor_detectorConfig-version.cmake

@@ -1,1 +1,0 @@
-/home/lan/rm_vision_ws/src/rm_auto_aim/armor_detector/include/armor_detector/number_classifier.hpp
