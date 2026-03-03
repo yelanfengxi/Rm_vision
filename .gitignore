@@ -1,0 +1,9 @@
+# 忽略 ROS2 编译生成的文件
+build/
+install/
+log/
+rm_tutorials/
+
+# 忽略本地编辑器配置
+.vscode/
+.idea/
