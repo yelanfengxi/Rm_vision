@@ -1,1 +1,0 @@
-/home/lan/rm_vision_ws/install/local_setup.bash
